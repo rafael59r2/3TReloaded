@@ -49,7 +49,7 @@ for (i = 0;i < sizeof(NOME)-1;  i++) putchar('*');
 i= 0;
 for (i = 0;i < sizeof(NOME)-1;i++) putchar('*');
     printf("****\n");
-    printf("Copyright (C) 2016  Rafael Romao <zeboneyo@gmail.com> \nThis program comes with ABSOLUTELY NO WARRANTY; for details type `show w'.\nThis is free software, and you are welcome to redistribute it\nunder certain conditions; type `show c' for details.\n");
+    printf("Copyright (C) 2016  Rafael Romao <zeboneyo@gmail.com>\n");
 }
 
 int main()
