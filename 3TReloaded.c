@@ -43,7 +43,7 @@ char s(int r){
     }
 void initmsg(){
 time_t t = time(NULL);
-struct tm *tm = localtime(&t);
+struct tm tm = *localtime(&t);
 int i;
 for (i = 0;i < sizeof(NOME)-1;  i++) putchar('*');
     printf("****\n");
