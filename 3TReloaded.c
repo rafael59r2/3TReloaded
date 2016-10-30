@@ -43,9 +43,7 @@ char s(int r){
     }
 void initmsg(){
 time_t t = time(NULL);
-    struct tm *tm = localtime(&t);
-    char s[64];
-    strftime(s, sizeof(s), "%c", tm.tm_year + 1900);
+struct tm *tm = localtime(&t);
 int i;
 for (i = 0;i < sizeof(NOME)-1;  i++) putchar('*');
     printf("****\n");
@@ -53,7 +51,7 @@ for (i = 0;i < sizeof(NOME)-1;  i++) putchar('*');
 i= 0;
 for (i = 0;i < sizeof(NOME)-1;i++) putchar('*');
     printf("****\n");
-    printf("Copyright (C) %s %s <zeboneyo@gmail.com>\n",s, AUTOR);
+    printf("Copyright (C) %s %s <zeboneyo@gmail.com>\n",tm.tm_year + 1900, AUTOR);
 }
 
 int main()
