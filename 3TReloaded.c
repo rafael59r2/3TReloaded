@@ -51,7 +51,7 @@ for (i = 0;i < sizeof(NOME)-1;  i++) putchar('*');
 i= 0;
 for (i = 0;i < sizeof(NOME)-1;i++) putchar('*');
     printf("****\n");
-    printf("Copyright (C) %s %s <zeboneyo@gmail.com>\n",tm.tm_year + 1900, AUTOR);
+    printf("Copyright (C) %d %s <zeboneyo@gmail.com>\n",tm.tm_year + 1900, AUTOR);
 }
 
 int main()
