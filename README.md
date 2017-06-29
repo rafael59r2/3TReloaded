@@ -6,16 +6,16 @@
 ###<a href="https://github.com/rafael59r2/3TReloaded/releases/download/1.1/3TReloaded-linux32.exe">32 bits</a>
 ###<a href="https://github.com/rafael59r2/3TReloaded/releases/download/1.1/3TReloaded-linux64.exe">64 bits</a>
 ###Or -->
-### Compile
+<h3> Compile</h3>
 <pre><code>git clone https://github.com/rafael59r2/3TReloaded.git</code></pre>
 
-###1. Change Directory
+<h3>1. Change Directory</h3>
 <pre><code>cd 3TReloaded</code></pre>
-###2. Compile
+<h3>2. Compile</h3>
 <pre><code>make</code></pre>
-###3. Install
+<h3>3. Install</h3>
 <pre><code>sudo make install</code></pre>
-###4. Clean
+<h3>4. Clean</h3>
 <pre><code>make clean</code></pre>
 <h2>Windows</h2>
 <!--
