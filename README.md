@@ -1,6 +1,4 @@
 <h1>3TReloaded</h1>
-<a href="https://koding.com/"> <img src="https://koding-cdn.s3.amazonaws.com/badges/made-with-koding/v1/koding_badge_ReadmeDark.png" srcset="https://koding-cdn.s3.amazonaws.com/badges/made-with-koding/v1/koding_badge_ReadmeDark.png 1x, https://koding-cdn.s3.amazonaws.com/badges/made-with-koding/v1/koding_badge_ReadmeDark@2x.png 2x" alt="Made with Koding" /> </a>
-<h2>Linux</h2>
 <!--
 ###Download
 ###<a href="https://github.com/rafael59r2/3TReloaded/releases/download/1.1/3TReloaded-linux32.exe">32 bits</a>
